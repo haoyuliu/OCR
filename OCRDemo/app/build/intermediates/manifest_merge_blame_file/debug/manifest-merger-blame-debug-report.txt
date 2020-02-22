@@ -1,0 +1,85 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!-- ~ Copyright (C) 2017 Baidu, Inc. All Rights Reserved. -->
+3<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+4    package="com.baidu.ocr.demo"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->/Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="28" />
+10-->/Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/app/src/main/AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/app/src/main/AndroidManifest.xml:6:5-79
+12-->/Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/app/src/main/AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/app/src/main/AndroidManifest.xml:7:5-80
+13-->/Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/app/src/main/AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/app/src/main/AndroidManifest.xml:8:5-66
+14-->/Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/app/src/main/AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->[:ocr_ui] /Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/ocr_ui/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-65
+15-->[:ocr_ui] /Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/ocr_ui/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-62
+16
+17    <uses-feature android:name="android.hardware.camera2.full" />
+17-->[:ocr_ui] /Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/ocr_ui/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-66
+17-->[:ocr_ui] /Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/ocr_ui/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:19-63
+18    <uses-feature android:name="android.hardware.camera" />
+18-->[:ocr_ui] /Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/ocr_ui/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-60
+18-->[:ocr_ui] /Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/ocr_ui/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:19-57
+19    <uses-feature android:name="android.hardware.camera.autofocus" />
+19-->[:ocr_ui] /Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/ocr_ui/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:5-70
+19-->[:ocr_ui] /Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/ocr_ui/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:19-67
+20
+21    <application
+21-->/Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/app/src/main/AndroidManifest.xml:9:5-25:19
+22        android:allowBackup="true"
+22-->/Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/app/src/main/AndroidManifest.xml:10:13-39
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.0.0] /Users/fingo/.gradle/caches/transforms-2/files-2.1/4de34232979cbe134bd28b81339a3afe/core-1.0.0/AndroidManifest.xml:22:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->/Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/app/src/main/AndroidManifest.xml:11:13-47
+26        android:label="@string/app_name"
+26-->/Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/app/src/main/AndroidManifest.xml:12:13-45
+27        android:supportsRtl="true"
+27-->/Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/app/src/main/AndroidManifest.xml:13:13-39
+28        android:theme="@style/AppTheme"
+28-->/Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/app/src/main/AndroidManifest.xml:14:13-44
+29        android:vmSafeMode="true" >
+29-->[:ocr_ui] /Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/ocr_ui/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:9-34
+30        <activity android:name="com.baidu.ocr.demo.MainActivity" >
+30-->/Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/app/src/main/AndroidManifest.xml:15:9-21:20
+30-->/Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/app/src/main/AndroidManifest.xml:15:19-47
+31            <intent-filter>
+31-->/Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/app/src/main/AndroidManifest.xml:16:13-20:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/app/src/main/AndroidManifest.xml:17:17-68
+32-->/Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/app/src/main/AndroidManifest.xml:17:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/app/src/main/AndroidManifest.xml:19:17-76
+34-->/Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/app/src/main/AndroidManifest.xml:19:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->/Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/app/src/main/AndroidManifest.xml:22:9-24:20
+38            android:name="com.baidu.ocr.demo.IDCardActivity"
+38-->/Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/app/src/main/AndroidManifest.xml:22:19-49
+39            android:label="@string/idCardLabel" >
+39-->/Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/app/src/main/AndroidManifest.xml:23:13-48
+40        </activity>
+41        <activity
+41-->[:ocr_ui] /Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/ocr_ui/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:9-30:80
+42            android:name="com.baidu.ocr.ui.camera.CameraActivity"
+42-->[:ocr_ui] /Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/ocr_ui/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-66
+43            android:configChanges="screenSize|orientation"
+43-->[:ocr_ui] /Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/ocr_ui/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-59
+44            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
+44-->[:ocr_ui] /Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/ocr_ui/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-77
+45    </application>
+46
+47</manifest>

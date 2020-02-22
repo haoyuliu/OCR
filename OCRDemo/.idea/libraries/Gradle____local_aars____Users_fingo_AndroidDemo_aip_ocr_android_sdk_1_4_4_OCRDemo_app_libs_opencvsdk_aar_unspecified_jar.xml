@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_aars__:/Users/fingo/AndroidDemo/aip-ocr-android-sdk-1.4.4/OCRDemo/app/libs/opencvsdk.aar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cda694b929803bc58ca9620f73eb4f4d/opencvsdk/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cda694b929803bc58ca9620f73eb4f4d/opencvsdk/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
